@@ -1,4 +1,27 @@
 # projectMusical
+
+# 프로젝트 명: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![관리자_로그인 및 회원조회](https://user-images.githubusercontent.com/105549970/176625819-72065cf6-376e-44aa-b820-9e0f38433177.png)
 ![관리자_뮤지컬추가](https://user-images.githubusercontent.com/105549970/176625828-b82cbb10-a36a-4b69-a9a7-52087a3c790e.png)
 ![관리자_예매현황 및 매출조회](https://user-images.githubusercontent.com/105549970/176625832-3eea121c-dca7-42fa-ae2b-43aff7c000c6.png)
@@ -10,5 +33,3 @@
 ![회원_정보수정](https://user-images.githubusercontent.com/105549970/176625852-56de315f-f03f-4e0c-8e23-70b8ca9ad17c.png)
 ![회원_탈퇴 후 로그인시도 실패](https://user-images.githubusercontent.com/105549970/176625857-cd067570-f789-45e3-9ecb-e6db6fb31351.png)
 
-
-<img src="https://user-images.githubusercontent.com/105549970/176625819-72065cf6-376e-44aa-b820-9e0f38433177.png"  width="700" height="500"/>
