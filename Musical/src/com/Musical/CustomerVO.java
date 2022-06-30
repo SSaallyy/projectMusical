@@ -1,6 +1,9 @@
 package com.Musical;
 
-public class CustomerVO {
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class CustomerVO implements Serializable{
 	
 	String id;
 	String pw;
@@ -10,9 +13,10 @@ public class CustomerVO {
 	String mail;
 	String phone;
 	String point;
-	
+	ArrayList<BookticketVO> paymentHistoy = null;
+
 	public CustomerVO() {
-		
+		paymentHistoy = new ArrayList<>();
 	}
 	
 	public CustomerVO(String id, String pw, String name, String birth, String gender, String mail, String phone) {
@@ -23,20 +27,8 @@ public class CustomerVO {
 		this.gender = gender;
 		this.mail = mail;
 		this.phone = phone;
+		paymentHistoy = new ArrayList<>();
 	}
-	
-	public CustomerVO(String id, String pw, String name, String birth, String gender, String mail, String phone,
-			String point) {
-		this.id = id;
-		this.pw = pw;
-		this.name = name;
-		this.birth = birth;
-		this.gender = gender;
-		this.mail = mail;
-		this.phone = phone;
-		this.point = point;
-	}
-
 
 	public String getId() {
 		return id;
@@ -86,14 +78,31 @@ public class CustomerVO {
 	public void setPoint(String point) {
 		this.point = point;
 	}
-	
+	public ArrayList<BookticketVO> getPh() {
+		return paymentHistoy;
+	}
+	public void setPh(ArrayList<BookticketVO> pPaymentHistoy) {
+		this.paymentHistoy = pPaymentHistoy;
+	}
+
 	@Override
 	public String toString() {
 		String str = String.format("%-12s %-4s %-5s %2s %5s",id,name,birth,gender,phone);
+		return str;
+	}
+	public String printTicket() { 
+		System.out.println("\n___________________________________________________________________________");
+		System.out.println("<"+name + "님의 예매내역입니다.>");	
+		System.out.println("===========================================================================");
+		String str = String.format("%10s %13s %10s %8s %6s %6s","제목","배우","날짜","시간","좌석번호","결제금액");
+		System.out.println(str);
+		System.out.println("===========================================================================");
+		int idx = 1;
+		
+		for (BookticketVO details : paymentHistoy) {
+			System.out.println((idx++) + ". "+ details.toString());
+		}
 		
 		return str;
 	}
-	
-	
- 
 }

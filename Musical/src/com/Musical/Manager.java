@@ -2,12 +2,9 @@ package com.Musical;
 
 public interface Manager {
 	
-	public void userSearch();
-	public void reservationTicket();
+	public void searchCustomer();
+	public void reserveTicket();
 	public void totalSale();
+	public void addMusical();
 	
-	//
-	public void inputTitle();
-	
-
 }

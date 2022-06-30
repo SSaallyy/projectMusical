@@ -2,10 +2,12 @@ package com.Musical;
 
 public interface Bookticket {
 	
-	public String selectMusical();
-	public void selectActor(String pTitle);
-	public void selectDate(String pTitle);
-	public void selectTime(String pTitle);
-	public void selectSeat(String pTitle);
 	
+	public BookticketVO enterBookticket();
+	public void selectMusical();
+	public void selectActor();
+	public void selectDate();
+	public void selectTime();
+	public void payment();
+	public void selectSeat();
 }
