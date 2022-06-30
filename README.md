@@ -20,6 +20,7 @@
 <br>
 <br>
 <br>
+
 ## 화면 구성
 ![MBS_struct drawio](https://user-images.githubusercontent.com/25880465/176633641-d10df9bc-0dbb-46f6-ba9b-a1314f5a0b0e.png)
 
