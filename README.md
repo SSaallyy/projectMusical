@@ -1,9 +1,9 @@
 # 뮤지컬 예매 시스템
-### 사용언어: Java
-### 동작환경: eclipse console
-### 개발환경: Java 1.8.0_333, eclipse ver. Photon
-### 참여인원: 김영운, 안시연, 이정민
-### 개발기간: 3일
+### - 사용언어: Java
+### - 동작환경: eclipse console
+### - 개발환경: Java 1.8.0_333, eclipse ver. Photon
+### - 참여인원: 김영운, 안시연, 이정민
+### - 개발기간: 3일
 <br>
 <br>
 <br>
