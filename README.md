@@ -9,3 +9,6 @@
 ![회원_예매내역 조회 및 로그아웃](https://user-images.githubusercontent.com/105549970/176625850-9ebdbfe3-2eee-45f9-be4d-dddf01222cf8.png)
 ![회원_정보수정](https://user-images.githubusercontent.com/105549970/176625852-56de315f-f03f-4e0c-8e23-70b8ca9ad17c.png)
 ![회원_탈퇴 후 로그인시도 실패](https://user-images.githubusercontent.com/105549970/176625857-cd067570-f789-45e3-9ecb-e6db6fb31351.png)
+
+
+<img src="https://user-images.githubusercontent.com/105549970/176625819-72065cf6-376e-44aa-b820-9e0f38433177.png"  width="200" height="400"/>
