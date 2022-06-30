@@ -11,4 +11,4 @@
 ![회원_탈퇴 후 로그인시도 실패](https://user-images.githubusercontent.com/105549970/176625857-cd067570-f789-45e3-9ecb-e6db6fb31351.png)
 
 
-<img src="https://user-images.githubusercontent.com/105549970/176625819-72065cf6-376e-44aa-b820-9e0f38433177.png"  width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/105549970/176625819-72065cf6-376e-44aa-b820-9e0f38433177.png"  width="700" height="500"/>
