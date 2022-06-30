@@ -1,4 +1,4 @@
-# 프로젝트 명: 뮤지컬 예매 시스템
+# 프로젝트 명: <br>뮤지컬 예매 시스템
 ### 사용언어: Java
 ### 개발환경: Java 1.8.0_333, eclipse ver. Photon
 ### 참여인원: 김영운, 안시연, 이정민
@@ -15,7 +15,10 @@
 ### 일관성 있는 데이터 구조
 ### 예외처리
 ### Java를 이용한 서버와 클라이언트 구현
-
+<br>
+<br>
+<br>
+<br>
 ## 화면 구성
 ![MBS_struct drawio](https://user-images.githubusercontent.com/25880465/176633641-d10df9bc-0dbb-46f6-ba9b-a1314f5a0b0e.png)
 
